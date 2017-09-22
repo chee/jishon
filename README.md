@@ -1,10 +1,13 @@
-# jishon
+# [Never mind](https://github.com/chee/jishon/issues/1)
 
-search jisho.org from node and the command line.
 
-## examples
+~~# jishon~~
 
-there is a promise interface
+~~search jisho.org from node and the command line.~~
+
+~~## examples~~
+
+~~there is a promise interface~~
 
 ```js
 const jishon = require('jishon')
@@ -22,7 +25,7 @@ const jishon = require('jishon')
 // or jishon('tea').then(console.log)
 ```
 
-there is also a callback interface
+~~there is also a callback interface~~
 
 ```js
 jishon('犬', (error, response) => {
@@ -33,24 +36,24 @@ jishon('犬', (error, response) => {
 })
 ```
 
-## screen photographs of action
+~~## screen photographs of action~~
 
-search in english:
+~~search in english:~~
 
 ![search in english](https://snake.dog/s/povoc/buqik.png)
 
-search in japanese:
+~~search in japanese:~~
 
 ![search in japanese](https://snake.dog/s/ratad/rixar.png)
 
-note that the bottom `english` meaning is japanese. the dom structure on jishon
-isn't great. i'll improve that in later
+~~note that the bottom `english` meaning is japanese. the dom structure on jishon~~
+~~isn't great. i'll improve that in later~~
 
-ya but you can pipe it through `jq` for nice
+~~ya but you can pipe it through `jq` for nice~~
 
-## notes
+~~## notes~~
 
-this will only work until `jisho.org` change their layout, but for as long as
-i'm using it in my personal projects it'll stay up to date.
+~~this will only work until `jisho.org` change their layout, but for as long as~~
+~~i'm using it in my personal projects it'll stay up to date.~~
 
-good luck everyone
+~~good luck everyone~~
