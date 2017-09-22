@@ -1,0 +1,32 @@
+{
+  "name": "jishon",
+  "version": "0.0.5",
+  "description": "take a search term and get json from jisho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo lol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chee/jishon.git"
+  },
+  "keywords": [
+    "jisho",
+    "japanese",
+    "json",
+    "scraper"
+  ],
+  "author": "chee <chee@snake.dog>",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/chee/jishon/issues"
+  },
+  "homepage": "https://github.com/chee/jishon#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "bin": "cli.js",
+  "dependencies": {
+    "scrape-it": "^3.3.3"
+  }
+}
