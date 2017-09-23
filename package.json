@@ -27,6 +27,7 @@
   },
   "bin": "cli.js",
   "dependencies": {
+    "minimist": "^1.2.0",
     "scrape-it": "^3.3.3"
   }
 }
