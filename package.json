@@ -1,6 +1,6 @@
 {
   "name": "jishon",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "take a search term and get json from jisho",
   "main": "index.js",
   "scripts": {
