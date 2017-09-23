@@ -22,7 +22,6 @@ const tagFilter = tags => word =>
 const filterForTags = tags => response =>
   tags
     ? Object.assign({}, response, {
-      x: console.log(tags),
       words: response.words.filter(tagFilter(tags))
     })
     : response
