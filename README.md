@@ -33,6 +33,29 @@ jishon('犬', (error, response) => {
 })
 ```
 
+## there is a command line interface
+
+arguments:
+
+```sh
+# with none of these passed, it will return all three
+-w        return words
+-s        return sentences
+-n        return names
+
+-t 'tag'  filter words by tag
+```
+
+```sh
+# get the kanji for the first common word matching 'neko'
+$ jishon neko -wt 'common word' | jq -r '.[0].japanese'
+猫
+
+# get the full name of the first suziki returned
+$ jishon suzuki -n  | jq -r '.[0].meanings[0].english'
+Suzuki Emi (1985.9.13-)
+```
+
 ## screen photographs of action
 
 search in english:
