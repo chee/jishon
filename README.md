@@ -60,11 +60,11 @@ Suzuki Emi (1985.9.13-)
 
 search in english:
 
-![search in english](https://snake.dog/s/povoc/buqik.png)
+![search in english](https://chee.party/s/povoc/buqik.png)
 
 search in japanese:
 
-![search in japanese](https://snake.dog/s/ratad/rixar.png)
+![search in japanese](https://chee.party/s/ratad/rixar.png)
 
 note that the bottom `english` meaning is japanese. the dom structure on jishon
 isn't great. i'll improve that in later
